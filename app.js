@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 
 app.get('/',(req,res)=>{  
-    res.send('Welcome to AWS API ');
+    res.send('Welcome to AWS API, changed pipeline ');
 });
 
 // app.use(router)
